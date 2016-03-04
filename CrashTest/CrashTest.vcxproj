@@ -87,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="BilderDU.cpp" />
+    <ClCompile Include="BuilderDU.cpp" />
     <ClCompile Include="CrashTest.cpp" />
     <ClCompile Include="DU.cpp" />
     <ClCompile Include="FactoryBilderDU.cpp" />
@@ -100,7 +100,7 @@
     <ClCompile Include="TaskKoshi.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BilderDU.h" />
+    <ClInclude Include="BuilderDU.h" />
     <ClInclude Include="DU.h" />
     <ClInclude Include="FactoryBilderDU.h" />
     <ClInclude Include="FactoryNumericMethod.h" />

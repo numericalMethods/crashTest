@@ -1,13 +1,18 @@
-﻿Построение начато 04.03.2016 21:38:51.
-     1>Проект "c:\Users\olga\documents\visual studio 2010\Projects\CrashTest\CrashTest\CrashTest.vcxproj" в узле 2 (целевые объекты build).
+﻿Построение начато 04.03.2016 23:26:13.
+     1>Проект "C:\Users\olga\Documents\Visual Studio 2010\Projects\CrashTest\CrashTest\CrashTest.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Создание "Debug\CrashTest.unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\CrashTest.unsuccessfulbuild".
        GenerateTargetFrameworkMonikerAttribute:
        Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
        ClCompile:
          Для всех выходных данных обновления не требуется.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CrashTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt CrashTest.cpp /clr:nostdlib 
-         CrashTest.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CrashTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt BuilderDU.cpp /clr:nostdlib 
+         BuilderDU.cpp
+     1>c:\users\olga\documents\visual studio 2010\projects\crashtest\crashtest\BuilderDU.h(4): warning C4570: BuilderDU: не был объявлен явно как абстрактный, однако содержит абстрактные функции
+                 DU BuilderDU::bildDU(void): абстрактный
+                 c:\users\olga\documents\visual studio 2010\projects\crashtest\crashtest\BuilderDU.h(7): см. объявление "BuilderDU::bildDU"
+                 void BuilderDU::setParametrs(void): абстрактный
+                 c:\users\olga\documents\visual studio 2010\projects\crashtest\crashtest\BuilderDU.h(8): см. объявление "BuilderDU::setParametrs"
          Для всех выходных данных обновления не требуется.
        CoreResGen:
          "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Debug\CrashTest.Form1.resources
@@ -15,9 +20,9 @@
        ResourceCompile:
          Для всех выходных данных обновления не требуется.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\olga\documents\visual studio 2010\Projects\CrashTest\Debug\CrashTest.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\CrashTest.Form1.resources /MANIFEST /ManifestFile:"Debug\CrashTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\olga\documents\visual studio 2010\Projects\CrashTest\Debug\CrashTest.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\olga\Documents\Visual Studio 2010\Projects\CrashTest\Debug\CrashTest.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\CrashTest.Form1.resources /MANIFEST /ManifestFile:"Debug\CrashTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\olga\Documents\Visual Studio 2010\Projects\CrashTest\Debug\CrashTest.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
          Debug\AssemblyInfo.obj
-         Debug\BilderDU.obj
+         Debug\BuilderDU.obj
          Debug\CrashTest.obj
          Debug\DU.obj
          Debug\FactoryBilderDU.obj
@@ -26,14 +31,14 @@
          Debug\stdafx.obj
          Debug\TaskKoshi.obj
          "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         CrashTest.vcxproj -> c:\users\olga\documents\visual studio 2010\Projects\CrashTest\Debug\CrashTest.exe
+         CrashTest.vcxproj -> C:\Users\olga\Documents\Visual Studio 2010\Projects\CrashTest\Debug\CrashTest.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\olga\documents\visual studio 2010\Projects\CrashTest\Debug\CrashTest.exe;#1" /manifest Debug\CrashTest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\olga\Documents\Visual Studio 2010\Projects\CrashTest\Debug\CrashTest.exe;#1" /manifest Debug\CrashTest.exe.intermediate.manifest
        FinalizeBuildStatus:
          Файл "Debug\CrashTest.unsuccessfulbuild" удаляется.
          Обращение к "Debug\CrashTest.lastbuildstate".
-     1>Построение проекта "c:\Users\olga\documents\visual studio 2010\Projects\CrashTest\CrashTest\CrashTest.vcxproj" завершено (целевые объекты build).
+     1>Построение проекта "C:\Users\olga\Documents\Visual Studio 2010\Projects\CrashTest\CrashTest\CrashTest.vcxproj" завершено (целевые объекты build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.00
+Затраченное время: 00:00:01.04

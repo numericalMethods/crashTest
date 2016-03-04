@@ -1,9 +1,9 @@
 #pragma once
 #include "DU.h"
-ref class BilderDU
+ref class BuilderDU
 {
 public:
-	BilderDU(void);
+	BuilderDU(void);
 	virtual DU bildDU() = 0;
 	virtual void setParametrs() = 0;
 };

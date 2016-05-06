@@ -89,10 +89,8 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="BuilderDU.cpp" />
     <ClCompile Include="CrashTest.cpp" />
-    <ClCompile Include="DU.cpp" />
     <ClCompile Include="FactoryBilderDU.cpp" />
     <ClCompile Include="FactoryNumericMethod.cpp" />
-    <ClCompile Include="NumericMethod.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

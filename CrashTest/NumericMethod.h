@@ -1,7 +1,10 @@
+#pragma once
+
 #include "DU.h"
 #include "TaskKoshi.h"
+#include <utility>
 
-#pragma once
+using namespace std;
 
 ref class NumericMethod
 {
@@ -13,6 +16,6 @@ public:
 	NumericMethod(DU du, TaskKoshi task);
 	virtual void setDU(DU du) = 0;
 	virtual void setTaskKoshi(TaskKoshi task) = 0;
-	virtual double executeMethood() = 0;
+	virtual pair<double,double> executeMethood() = 0;
 };
 
